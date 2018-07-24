@@ -2298,7 +2298,8 @@ create table ###LDF###.anl_alg_huwel_jubilaris (
     adresbinnenland2_v             character varying(110) ,
     adresbinnenland3_v             character varying(50) ,
     datumsluiting                  numeric(8, 0) ,
-    status                         character varying(100)
+    status                         character varying(100),
+	resulterende_dagen			   numeric(2, 0)
 )
 WITH (
   OIDS=FALSE
@@ -2323,6 +2324,7 @@ Comment on  Column ###LDF###.ANL_ALG_HUWEL_JUBILARIS.ADRESBINNENLAND2_V is 'Adre
 Comment on  Column ###LDF###.ANL_ALG_HUWEL_JUBILARIS.ADRESBINNENLAND3_V is 'Adres binnenland (3) Verblijf vestiging';
 Comment on  Column ###LDF###.ANL_ALG_HUWEL_JUBILARIS.DATUMSLUITING is 'Datum sluiting';
 Comment on  Column ###LDF###.ANL_ALG_HUWEL_JUBILARIS.STATUS is 'Status';
+Comment on  Column ###LDF###.ANL_ALG_HUWEL_JUBILARIS.RESULTERENDE_DAGEN is 'Aantal dagen tot jubilaris';
 
 
 ALTER TABLE ###LDF###.anl_alg_huwel_jubilaris
