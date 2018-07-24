@@ -2337,7 +2337,8 @@ create table ###LDF###.anl_alg_leeftijdsjubilaris (
     adresbinnenland2_v             character varying(110) ,
     adresbinnenland3_v             character varying(50) ,
     geboortedatum                  numeric(8, 0) ,
-    status                         numeric(4, 0) 
+    status                         numeric(4, 0) ,
+	resulterende_dagen			   numeric(2, 0)
 )
 WITH (
   OIDS=FALSE
@@ -2355,6 +2356,7 @@ Comment on  Column ###LDF###.ANL_ALG_LEEFTIJDSJUBILARIS.ADRESBINNENLAND2_V is 'A
 Comment on  Column ###LDF###.ANL_ALG_LEEFTIJDSJUBILARIS.ADRESBINNENLAND3_V is 'Adres binnenland (3) Verblijf vestiging';
 Comment on  Column ###LDF###.ANL_ALG_LEEFTIJDSJUBILARIS.GEBOORTEDATUM is 'Geboortedatum';
 Comment on  Column ###LDF###.ANL_ALG_LEEFTIJDSJUBILARIS.STATUS is 'Status';
+Comment on  Column ###LDF###.ANL_ALG_LEEFTIJDSJUBILARIS.RESULTERENDE_DAGEN is 'Aantal resulterende dagen';
 
 ALTER TABLE ###LDF###.anl_alg_leeftijdsjubilaris
   OWNER TO ###OWNER###;
