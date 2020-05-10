@@ -1,0 +1,3 @@
+$fileDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+cd $fileDir
+java '-Dtalend.component.manager.m2.repository=%cd%/../lib' '-Xms256M' '-Xmx1024M' -cp '.;../lib/routines.jar;../lib/crypto-utils.jar;../lib/dom4j-1.6.1.jar;../lib/json-20160810.jar;../lib/log4j-1.2.17.jar;../lib/postgresql-42.2.5.jar;../lib/talend_file_enhanced_20070724.jar;../lib/talendcsv.jar;vullen_ldf_overzichten_2_0.jar;logger_2_0.jar;' brk.vullen_ldf_overzichten_2_0.Vullen_ldf_overzichten  --context=Default %*
