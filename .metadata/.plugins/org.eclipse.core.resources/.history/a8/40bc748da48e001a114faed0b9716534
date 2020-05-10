@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_MA5WwM9EEeW7rbEy2GMODg" id="_io8VwAS6EeaeWc9Ji3tTkQ" label="create_reports_tables_indexes" version="0.1" statusCode="" item="_MA5Wws9EEeW7rbEy2GMODg" displayName="create_reports_tables_indexes">
+    <author href="../../talend.project#_O5xIIY6kEequHepCzpIbFA"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_jXB2gI6kEequHepCzpIbFA" path="initial_jobs"/>
+  <TalendProperties:ProcessItem xmi:id="_MA5Wws9EEeW7rbEy2GMODg" property="_MA5WwM9EEeW7rbEy2GMODg" state="_jXB2gI6kEequHepCzpIbFA">
+    <process href="create_reports_tables_indexes_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

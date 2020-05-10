@@ -1,0 +1,28 @@
+package routines;
+
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
+
+public class PasswordReader {
+
+	//Reads the password for the settings.ini file from the staticConfiguration.js
+	public static String read() {
+		//String test = Settings.readFile("../../../../../CirCooNodejs/config/staticConfiguration.js");
+		String test = Settings.readFile("D:/Makelaarsuite/mks00-nodejs/CirCooNodejs/config/staticConfiguration.js");
+		test = test.replace("\n", "").replace("\r", "").replace(" ", "");
+		String keyRegex = "INI_ENCODE_KEY=\"([a-zA-Z.-]+)\"";
+		Pattern p = Pattern.compile(keyRegex);
+		Matcher m = p.matcher(test);
+		if ( m.find() && m.group(1).length() > 0) {
+			return m.group(1);
+		}
+		throw new RuntimeException(
+				"INI_ENCODE_KEY not found in staticConfiguration.js");
+	}
+    
+    public static String stringBetween(String input, String stringStart, String stringEnd) {
+    	String[] temp = input.split(stringStart, 2);
+    	temp = temp[1].split(stringEnd, 2);
+    	return temp[0];
+    }
+}

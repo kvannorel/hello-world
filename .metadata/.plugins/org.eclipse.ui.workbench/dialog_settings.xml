@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="JobScriptsExportWizard">
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_WSDL_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_WEBXML_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_CONFIGFILE_ID"/>
+		<item value="false" key="JavaJobScriptsExportWizardPage.STORE_DEPENDENCIES_ID"/>
+		<item value="false" key="JavaJobScriptsExportWizardPage.EXTRACT_ZIP_FILE"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_SOURCE_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_SYSTEM_ROUTINE_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_CONTEXT_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_WSDD_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_USER_ROUTINE_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_JOB_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_MODEL_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_SHELL_LAUNCHER_ID"/>
+		<item value="true" key="JavaJobScriptsExportWizardPage.STORE_AXISLIB_ID"/>
+		<item value="false" key="JavaJobScriptsExportWizardPage.APPLY_TO_CHILDREN_ID"/>
+		<item value="POJO" key="JavaJobScriptsExportWizardPage.STORE_EXPORTTYPE_ID"/>
+		<list key="JavaJobScriptsExportWizardPage.STORE_DESTINATION_NAMES_ID">
+			<item value="D:\brk_initial_import_0.1.zip"/>
+			<item value="D:\ModuleFraude_0.1.zip"/>
+			<item value="D:\ModuleKwaliteit_2.0.zip"/>
+			<item value="D:\cipers_test_0.1.zip"/>
+			<item value="D:\CirCooNodejs-dev\ldf\deployments\Kwaliteit\ModuleKwaliteit_2.0.zip"/>
+			<item value="D:\CirCooNodejs-dev\ldf\deployments\Beheer\ModuleBeheer_0.1.zip"/>
+			<item value="D:\ModuleKwaliteit_2.1.zip"/>
+			<item value="D:\Makelaarsuite\mks01-nodejs\CirCooNodejs\ldf\deployments\GeometryTables_0.1.zip"/>
+			<item value="D:\Makelaarsuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\ModuleKwaliteit_2.0.zip"/>
+			<item value="D:\Makelaarsuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\ModuleKwaliteit_2.0v2.zip"/>
+			<item value="D:\Makelaarsuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit\"/>
+			<item value="D:\Makelaarsuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Alg\ModuleAlgemeen_0.1.zip"/>
+			<item value="C:\Users\norel00\Desktop\bg310_fill_2.0.zip"/>
+			<item value="D:\CirCooNodejs-dev\ldf\deployments\Fraude\ModuleFraude_0.1.zip"/>
+		</list>
+		<section name="destinationFile">
+			<item value="D:\brk_initial_import_0.1.zip" key="destinationFile"/>
+		</section>
+	</section>
+	<section name="ExportItemWizard">
+		<section name="destinationFile">
+			<item value="D:\Makelaarsuite\mks01-nodejs\CirCooNodejs\ldf\deployments\Kwaliteit" key="directoryPath"/>
+			<item value="D:\Job Designs.zip" key="archivePath"/>
+		</section>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

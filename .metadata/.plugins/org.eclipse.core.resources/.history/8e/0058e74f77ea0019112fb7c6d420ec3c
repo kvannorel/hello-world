@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_NWSS4Do5EeeAoLtST_DMPA" id="_NWRr0Do5EeeAoLtST_DMPA" label="PasswordReader" version="0.1" statusCode="" item="_NWSS4jo5EeeAoLtST_DMPA" displayName="PasswordReader">
+    <author href="../../talend.project#_G7ep4ep3EemaQuCYnAq_FA"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_T-Rx0Op3EemaQuCYnAq_FA" path=""/>
+  <TalendProperties:RoutineItem xmi:id="_NWSS4jo5EeeAoLtST_DMPA" property="_NWSS4Do5EeeAoLtST_DMPA" state="_T-Rx0Op3EemaQuCYnAq_FA">
+    <content href="PasswordReader_0.1.item#/"/>
+  </TalendProperties:RoutineItem>
+</xmi:XMI>

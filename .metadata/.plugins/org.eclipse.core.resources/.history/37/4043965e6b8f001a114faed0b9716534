@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_W15-ECPeEeaakbwExWLYRA" id="_W15XACPeEeaakbwExWLYRA" label="LogMutationJob" version="0.1" statusCode="" item="_W15-EiPeEeaakbwExWLYRA" displayName="LogMutationJob">
+    <author href="../../talend.project#_O5xIIY6kEequHepCzpIbFA"/>
+    <additionalProperties xmi:id="_ipO8YI6kEequHepCzpIbFA" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_ipO8YY6kEequHepCzpIbFA" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_ipO8Yo6kEequHepCzpIbFA" key="created_date" value="2020-05-05T09:46:33.894+0200"/>
+    <additionalProperties xmi:id="_ipO8Y46kEequHepCzpIbFA" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_ipO8ZI6kEequHepCzpIbFA" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_ipO8ZY6kEequHepCzpIbFA" key="modified_date" value="2020-05-06T09:26:49.326+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_ipD9QI6kEequHepCzpIbFA" path="Logger"/>
+  <TalendProperties:ProcessItem xmi:id="_W15-EiPeEeaakbwExWLYRA" property="_W15-ECPeEeaakbwExWLYRA" state="_ipD9QI6kEequHepCzpIbFA">
+    <process href="LogMutationJob_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

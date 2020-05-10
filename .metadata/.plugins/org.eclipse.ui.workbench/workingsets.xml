@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562165783559_0" label="Java Main Sources" name="Java Main Sources">
+<item elementID="=LDF_ROUTINES/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ROUTINES/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ROUTINES/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ROUTINES/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_VERHUIZING_0.1/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_VERHUIZING_0.1/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_VERHUIZING_0.1/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_VERHUIZING_0.1/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_HUISVESTING_0.1/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_HUISVESTING_0.1/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_HUISVESTING_0.1/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_HUISVESTING_0.1/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_HUISVESTING_V1_0.1/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_HUISVESTING_V1_0.1/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_HUISVESTING_V1_0.1/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_ADR_MBT_HUISVESTING_V1_0.1/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_GEB_KIND_0.1/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_GEB_KIND_0.1/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_GEB_KIND_0.1/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_GEB_KIND_0.1/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_REISDOC_0.1/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_REISDOC_0.1/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_REISDOC_0.1/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_REISDOC_0.1/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_STUDIE_0.1/src\/main\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_STUDIE_0.1/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_STUDIE_0.1/src\/main\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LDF_ANL_FRAUDE_MBT_STUDIE_0.1/src\/test\/resources" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1562165783564_1" label="Java Test Sources" name="Java Test Sources"/>
+</workingSetManager>

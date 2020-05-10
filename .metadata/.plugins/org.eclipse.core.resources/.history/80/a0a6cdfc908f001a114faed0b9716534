@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_NWSS4Do5EeeAoLtST_DMPA" id="_NWRr0Do5EeeAoLtST_DMPA" label="PasswordReader" version="0.1" statusCode="" item="_NWSS4jo5EeeAoLtST_DMPA" displayName="PasswordReader">
+    <author href="../../talend.project#_O5xIIY6kEequHepCzpIbFA"/>
+    <additionalProperties xmi:id="_ifCekI6kEequHepCzpIbFA" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_ifCekY6kEequHepCzpIbFA" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_ifCeko6kEequHepCzpIbFA" key="created_date" value="2020-05-05T09:46:32.825+0200"/>
+    <additionalProperties xmi:id="_ifCek46kEequHepCzpIbFA" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_ifCelI6kEequHepCzpIbFA" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_ifCelY6kEequHepCzpIbFA" key="modified_date" value="2020-05-06T09:14:33.644+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_ie_bQI6kEequHepCzpIbFA" path=""/>
+  <TalendProperties:RoutineItem xmi:id="_NWSS4jo5EeeAoLtST_DMPA" property="_NWSS4Do5EeeAoLtST_DMPA" state="_ie_bQI6kEequHepCzpIbFA">
+    <content href="PasswordReader_0.1.item#/"/>
+  </TalendProperties:RoutineItem>
+</xmi:XMI>

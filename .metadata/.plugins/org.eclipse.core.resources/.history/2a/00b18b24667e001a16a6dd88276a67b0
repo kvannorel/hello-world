@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_rXSq4M6GEeKcgKW0Sfb3UQ" id="_pQ_DAGroEeeQs7OM92OU4w" label="anl_persoon" purpose="Imports the data from the CSV file to the ETL database" description="Import the data to the database server specified in the context file." version="0.1" statusCode="" item="_rXSq4s6GEeKcgKW0Sfb3UQ" displayName="anl_persoon">
+    <author href="../../../talend.project#_1po4kcieEemde_xVUyd-lQ"/>
+    <additionalProperties xmi:id="_rXkIsLHdEemGX6hyL-tUSw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_rXkIsbHdEemGX6hyL-tUSw" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_rXkIsrHdEemGX6hyL-tUSw" key="created_date" value="2019-07-29T10:48:46.779+0200"/>
+    <additionalProperties xmi:id="_rXkIs7HdEemGX6hyL-tUSw" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_rXkItLHdEemGX6hyL-tUSw" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_rXkItbHdEemGX6hyL-tUSw" key="modified_date" value="2020-04-14T14:47:18.821+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_CnS9oMimEemde_xVUyd-lQ" path="Module_Kwaliteit/Jobs_vanuit_module_kwaliteit" locked="true" lockDate="2020-04-14T14:47:18.821+0200">
+    <locker href="../../../talend.project#_1po4kcieEemde_xVUyd-lQ"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_rXSq4s6GEeKcgKW0Sfb3UQ" property="_rXSq4M6GEeKcgKW0Sfb3UQ" state="_CnS9oMimEemde_xVUyd-lQ">
+    <process href="anl_persoon_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

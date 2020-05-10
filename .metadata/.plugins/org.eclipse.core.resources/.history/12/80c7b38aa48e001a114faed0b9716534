@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_2djIgNzTEeOI5_Kiuj5IGg" id="_eSE8wOAlEeOwtaZtcGkiuQ" label="Toevoegen_ldf_overzichten_brk" version="2.0" statusCode="" item="_2djIgtzTEeOI5_Kiuj5IGg" displayName="Toevoegen_ldf_overzichten_brk">
+    <author href="../talend.project#_O5xIIY6kEequHepCzpIbFA"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_irFWgI6kEequHepCzpIbFA" path=""/>
+  <TalendProperties:ProcessItem xmi:id="_2djIgtzTEeOI5_Kiuj5IGg" property="_2djIgNzTEeOI5_Kiuj5IGg" state="_irFWgI6kEequHepCzpIbFA">
+    <process href="Toevoegen_ldf_overzichten_brk_2.0.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

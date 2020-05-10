@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_zaI-YG49EeShSNEGdLaOOw" id="_zaAbgG49EeShSNEGdLaOOw" label="LDF" version="0.1" statusCode="" item="_zaI-Ym49EeShSNEGdLaOOw" displayName="LDF">
+    <author href="../talend.project#_UJ_sIYOiEeqN_v9PL6vBgQ"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_hgH_9YOiEeqN_v9PL6vBgQ" path=""/>
+  <TalendProperties:ContextItem xmi:id="_zaI-Ym49EeShSNEGdLaOOw" property="_zaI-YG49EeShSNEGdLaOOw" state="_hgH_9YOiEeqN_v9PL6vBgQ" defaultContext="Default">
+    <context href="LDF_0.1.item#_hgH_wIOiEeqN_v9PL6vBgQ"/>
+  </TalendProperties:ContextItem>
+</xmi:XMI>

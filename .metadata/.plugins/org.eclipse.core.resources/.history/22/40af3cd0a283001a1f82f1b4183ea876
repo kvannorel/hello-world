@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_rXSq4M6GEeKcgKW0Sfb3UQ" id="_YhAaILAOEeOuicIMxtTnVA" label="anl_fraude_mbt_geb_kind" purpose="Imports the data from the CSV file to the ETL database" description="Import the data to the database server specified in the context file." version="0.1" statusCode="" item="_rXSq4s6GEeKcgKW0Sfb3UQ" displayName="anl_fraude_mbt_geb_kind">
+    <author href="../../../talend.project#_UJ_sIYOiEeqN_v9PL6vBgQ"/>
+    <additionalProperties xmi:id="_zs0msJ2VEemjy-bQueqiFw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_zs0msZ2VEemjy-bQueqiFw" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_zs0msp2VEemjy-bQueqiFw" key="created_date" value="2019-07-03T15:23:55.675+0200"/>
+    <additionalProperties xmi:id="_zs0ms52VEemjy-bQueqiFw" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_zs0mtJ2VEemjy-bQueqiFw" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_zs0mtZ2VEemjy-bQueqiFw" key="modified_date" value="2020-04-21T09:36:08.275+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_sOow4IOiEeqN_v9PL6vBgQ" path="Module_fraude/Jobs_vanuit_module_fraude" locked="true" lockDate="2020-04-21T09:36:08.275+0200">
+    <locker href="../../../talend.project#_UJ_sIYOiEeqN_v9PL6vBgQ"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_rXSq4s6GEeKcgKW0Sfb3UQ" property="_rXSq4M6GEeKcgKW0Sfb3UQ" state="_sOow4IOiEeqN_v9PL6vBgQ">
+    <process href="anl_fraude_mbt_geb_kind_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

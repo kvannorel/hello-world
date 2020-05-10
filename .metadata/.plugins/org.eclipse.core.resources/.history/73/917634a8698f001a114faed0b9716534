@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_ifmfQI6kEequHepCzpIbFA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_ifnGUI6kEequHepCzpIbFA" comment="" name="xmlType" prompt="xmlType?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_ifnGUY6kEequHepCzpIbFA" comment="" name="wasKdoRef" prompt="wasKdoRef?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_ifnGUo6kEequHepCzpIbFA" comment="" name="wordtKdoRef" prompt="wordtKdoRef?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_ifnGU46kEequHepCzpIbFA" comment="" name="einddatum" prompt="einddatum?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_ifnGVI6kEequHepCzpIbFA" comment="" name="mutatiesoort" prompt="mutatiesoort?" promptNeeded="false" type="id_String" value="null"/>
+  <contextParameter xmi:id="_ifnGVY6kEequHepCzpIbFA" comment="" name="wasInNormal" prompt="wasInNormal?" promptNeeded="false" type="id_Boolean" value="false"/>
+  <contextParameter xmi:id="_ifnGVo6kEequHepCzpIbFA" comment="" name="wordtInNormal" prompt="wordtInNormal?" promptNeeded="false" type="id_Boolean" value="false"/>
+  <contextParameter xmi:id="_ifnGV46kEequHepCzpIbFA" comment="" name="wasInHistory" prompt="wasInHistory?" promptNeeded="false" type="id_Boolean" value="false"/>
+  <contextParameter xmi:id="_ifnGWI6kEequHepCzpIbFA" comment="" name="wordtInHistory" prompt="wordtInHistory?" promptNeeded="false" type="id_Boolean" value="false"/>
+  <contextParameter xmi:id="_ifnGWY6kEequHepCzpIbFA" comment="" name="parentMap" prompt="parentMap?" promptNeeded="false" type="id_Object" value="null"/>
+  <contextParameter xmi:id="_ifnGWo6kEequHepCzpIbFA" comment="" name="xmlLocation" prompt="xmlLocation?" promptNeeded="false" type="id_String" value="null"/>
+</talendfile:ContextType>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_adzsUFvBEeWUTYvWdZGD7g" id="_3Ce60FvOEeWnd6yNdiw42Q" label="anl_beh_selmeth_afnregels" version="0.1" statusCode="" item="_adzsUlvBEeWUTYvWdZGD7g" displayName="anl_beh_selmeth_afnregels">
+    <author href="../../../talend.project#_UJ_sIYOiEeqN_v9PL6vBgQ"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_h0Rq0IOiEeqN_v9PL6vBgQ" path="Module_Beheer/Jobs_vanuit_module_beheer"/>
+  <TalendProperties:ProcessItem xmi:id="_adzsUlvBEeWUTYvWdZGD7g" property="_adzsUFvBEeWUTYvWdZGD7g" state="_h0Rq0IOiEeqN_v9PL6vBgQ">
+    <process href="anl_beh_selmeth_afnregels_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

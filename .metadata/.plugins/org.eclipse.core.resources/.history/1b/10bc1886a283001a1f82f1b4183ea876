@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_1MLgAM7AEeK7P7h2ktUGsA" id="_YRLwoKkXEeOAkYH_v5pRMQ" label="ContextReader" purpose="Reusable Job for Reading a Context File" description="Any code written or configuration within this Job by www.talendbyexample.com has been built as part of an online tutorial and is not intended for use in a production environment&#xA;&#xA;0.2 Supports comments in Context file. Any line starting with '#'&#xA;0.3 Trims input values" version="2.0" statusCode="" item="_1MLgAs7AEeK7P7h2ktUGsA" displayName="ContextReader">
+    <author href="../../../talend.project#_UJ_sIYOiEeqN_v9PL6vBgQ"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_hgnH8IOiEeqN_v9PL6vBgQ" path="CommonJobs/ContextLoader"/>
+  <TalendProperties:ProcessItem xmi:id="_1MLgAs7AEeK7P7h2ktUGsA" property="_1MLgAM7AEeK7P7h2ktUGsA" state="_hgnH8IOiEeqN_v9PL6vBgQ">
+    <process href="ContextReader_2.0.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

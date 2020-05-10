@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="jobName" prompt="jobName?" promptNeeded="false" repositoryContextId="_SgGCMMayEeajx9JmlMjcNA" type="id_String" value="null"/>
+    <contextParameter comment="" name="result" prompt="result?" promptNeeded="false" repositoryContextId="_SgGCMMayEeajx9JmlMjcNA" type="id_Boolean" value="false"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value=""/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value=""/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;D:/Tools/Talend5.6.2/TOS_DI-Win32-20150508_1414-V5.6.2/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" value=""/>
+    <elementParameter field="CHECK" name="UPDATE_COMPONENTS" value="false"/>
+    <elementParameter field="CHECK" name="STATS_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:PROPERTY_TYPE" value="BUILT_IN"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE:REPOSITORY_PROPERTY_TYPE" value=""/>
+    <elementParameter field="CHECK" name="IMPLICT_DEFAULT_PROJECTSETTING" value="true"/>
+    <elementParameter field="PROPERTY_TYPE" name="PROPERTY_TYPE_IMPLICIT_CONTEXT" value=""/>
+    <routinesParameter id="_qiAVAHJEEeWij8uP9AM_0A" name="DataOperation"/>
+    <routinesParameter id="_BB0PMI67EeWTVJfTJQCiqg" name="GeoOperation"/>
+    <routinesParameter id="_BBdC0I67EeWTVJfTJQCiqg" name="GeometryOperation"/>
+    <routinesParameter id="_BBwk0I67EeWTVJfTJQCiqg" name="GeometryUtility"/>
+    <routinesParameter id="_qiSo4HJEEeWij8uP9AM_0A" name="Mathematical"/>
+    <routinesParameter id="_qiSo5HJEEeWij8uP9AM_0A" name="Numeric"/>
+    <routinesParameter id="_BB35kI67EeWTVJfTJQCiqg" name="OpenStreetMap"/>
+    <routinesParameter id="_qiYvgHJEEeWij8uP9AM_0A" name="Relational"/>
+    <routinesParameter id="_qiYvhHJEEeWij8uP9AM_0A" name="StringHandling"/>
+    <routinesParameter id="_qie2IHJEEeWij8uP9AM_0A" name="TalendDataGenerator"/>
+    <routinesParameter id="_qie2JHJEEeWij8uP9AM_0A" name="TalendDate"/>
+    <routinesParameter id="_qik8wHJEEeWij8uP9AM_0A" name="TalendString"/>
+    <routinesParameter id="_FIL-QMX0EeaAAdwNe2ha6g" name="Settings"/>
+  </parameters>
+  <node componentName="tPostgresPlusRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresPlusRow_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="D:\Tools\Talend\dir\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresPlusConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" value="PostgreSQL"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="0RMsyjmybrE="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;DROP TABLE IF EXISTS brk_perceel_zakelijkrecht;&#xD;&#xA;&#xD;&#xA;CREATE TABLE &quot; + Settings.get(&quot;SCHEMA_NAME_LOOKUP&quot;, &quot;ldf&quot;) + &quot;.brk_perceel_zakelijkrecht&#xD;&#xA;(&#xD;&#xA;  link_id character varying(999),&#xD;&#xA;  perceel text, -- Perceel-id&#xD;&#xA;  eigenaar text, -- Eigenaar&#xD;&#xA;  koopsom character varying(999), -- Koopsom&#xD;&#xA;  koopjaar character varying(999), -- Koopjaar&#xD;&#xA;  grootte character varying(999), -- Oppervlakte (m²)&#xD;&#xA;  groottesoort character varying(999), -- Status&#xD;&#xA;  akrregister9tekst character varying(999), -- Register 9 tekst&#xD;&#xA;  geo geometry, --Geometry&#xD;&#xA;  koopsomindicatiemeerobjecten character varying(999), -- Koopsoom indicatie meer objecten&#xD;&#xA;  aandeel text -- Aandeel / Zakelijkrecht&#xD;&#xA;)&#xD;&#xA;WITH (&#xD;&#xA;  OIDS=FALSE&#xD;&#xA;);&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;INSERT INTO brk_perceel_zakelijkrecht&#xD;&#xA;--Ingezetene--&#xD;&#xA;SELECT tenamsteling.tennaamstellingid as link_id,&#xD;&#xA;COALESCE(NULLIF(concat_ws(' ', perceel.kdoperceelkadaanduidanaamadgemwaarde, perceel.kdoperceelkadaanduidsectie, perceel.kdoperceelkadaanduidanaamadgemperceelnummer), ''),&#xD;&#xA;&#x9;NULLIF(concat_ws(' ', app.appartementsrechtkadaanduidingnaamkadgemwaarde, app.appartementsrechtkadaanduidingsectie, app.appartementsrechtkadaanduidingperceelnummer, 'A' || app.appartementsrechtkadaanduidingappartsrechtvolgnum), '')) AS perceel,&#xD;&#xA;COALESCE(NULLIF(concat_ws(' ', eigenaar.voornamen, eigenaar.voorvoegselgeslachtsnaam, eigenaar.geslachtsnaam), ''), NULLIF(upper(concat_ws(' ',ingezetene.ingezetenenaamvoornamen, ingezetene.ingezetenenaamgeslachtsnaam)), ''))&#xD;&#xA;   AS eigenaar,&#xD;&#xA;perceel.kdoperceelkoopsom AS koopsom,&#xD;&#xA;perceel.kdoperceelkoopjaar AS koopjaar,&#xD;&#xA;perceel.kdoperceelkadgroottewaarde AS grootte,&#xD;&#xA;perceel.kdoperceelsoortgroottewaarde AS groottesoort,&#xD;&#xA;perceel.kdoperceelakrregister9tekst AS akrregister9tekst,&#xD;&#xA;geom.geom AS geo,&#xD;&#xA;perceel.kdoperceelkoopsomindicatiemeerobjecten AS koopsomindicatiemeerobjecten,&#xD;&#xA;concat_ws(' ', concat_ws('/', tenamsteling.tennaamstellingaandeelteller, tenamsteling.tennaamstellingaandeelnoemer), coalesce(zakelijkrecht.kdozakelijkrechtaardwaarde,belastzak.kdozakelijkrechtaardwaarde)) AS aandeel&#xD;&#xA;FROM brk_zakelijkrecht zakelijkrecht&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_zakelijkrecht_belastmet belastmet on belastmet.href = zakelijkrecht.kdozakelijkrechtid&#xD;&#xA;LEFT JOIN brk_zakelijkrecht belastzak on belastmet.zakelijkrechtid = belastzak.kdozakelijkrechtid&#xD;&#xA;LEFT JOIN brk_kdoperceel perceel on belastzak.kdozakelijkrechtrustophref = perceel.kdoperceelid OR zakelijkrecht.kdozakelijkrechtrustophref = perceel.kdoperceelid&#xD;&#xA;LEFT JOIN brk_appartementsrecht app on belastzak.kdozakelijkrechtrustopappartementsrechthref = app.appartementsrechtid OR zakelijkrecht.kdozakelijkrechtrustopappartementsrechthref = app.appartementsrechtid&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_geometry geom ON perceel.kdoperceelid = geom.id OR app.appartementsrechtid = id&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_tennaamstelling tenamsteling on zakelijkrecht.kdozakelijkrechtid = tenamsteling.tennaamstellingvanzakelijkrechthref&#xD;&#xA;LEFT JOIN brk_ingezetene ingezetene on tenamsteling.tennaamstellingvanpersooningezetenehref = ingezetene.ingezeteneid&#xD;&#xA;LEFT JOIN anl_persoon eigenaar ON trim(to_char(eigenaar.burgerservicenummer, '999999999')) = ingezetene.ingezetenebsn&#xD;&#xA;WHERE ingezetene.ingezetenebsn &lt;> '';&#xD;&#xA;--####################################&#xD;&#xA;--##################################&#xD;&#xA;--Nietingezetene--&#xD;&#xA;INSERT INTO brk_perceel_zakelijkrecht&#xD;&#xA;SELECT tenamsteling.tennaamstellingid as link_id,&#xD;&#xA;COALESCE(NULLIF(concat_ws(' ', perceel.kdoperceelkadaanduidanaamadgemwaarde, perceel.kdoperceelkadaanduidsectie, perceel.kdoperceelkadaanduidanaamadgemperceelnummer), ''),&#xD;&#xA;&#x9;NULLIF(concat_ws(' ', app.appartementsrechtkadaanduidingnaamkadgemwaarde, app.appartementsrechtkadaanduidingsectie, app.appartementsrechtkadaanduidingperceelnummer, 'A' || app.appartementsrechtkadaanduidingappartsrechtvolgnum), '')) AS perceel,&#xD;&#xA;coalesce(NULLIF(concat_ws(' ', eigenaar.voornamen, eigenaar.voorvoegselgeslachtsnaam, eigenaar.geslachtsnaam), ''), NULLIF(upper(concat_ws(' ',nietingezetene.nietingezetenenaamvoornamen, nietingezetene.nietingezetenenaamgeslachtsnaam)), ''))&#xD;&#xA;   AS eigenaar,&#xD;&#xA;perceel.kdoperceelkoopsom AS koopsom,&#xD;&#xA;perceel.kdoperceelkoopjaar AS koopjaar,&#xD;&#xA;perceel.kdoperceelkadgroottewaarde AS grootte,&#xD;&#xA;perceel.kdoperceelsoortgroottewaarde AS groottesoort,&#xD;&#xA;perceel.kdoperceelakrregister9tekst AS akrregister9tekst,&#xD;&#xA;geom.geom AS geo,&#xD;&#xA;perceel.kdoperceelkoopsomindicatiemeerobjecten AS koopsomindicatiemeerobjecten,&#xD;&#xA;concat_ws(' ', concat_ws('/', tenamsteling.tennaamstellingaandeelteller, tenamsteling.tennaamstellingaandeelnoemer), coalesce(zakelijkrecht.kdozakelijkrechtaardwaarde,belastzak.kdozakelijkrechtaardwaarde)) AS aandeel&#xD;&#xA;FROM brk_zakelijkrecht zakelijkrecht&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_zakelijkrecht_belastmet belastmet on belastmet.href = zakelijkrecht.kdozakelijkrechtid&#xD;&#xA;LEFT JOIN brk_zakelijkrecht belastzak on belastmet.zakelijkrechtid = belastzak.kdozakelijkrechtid&#xD;&#xA;LEFT JOIN brk_kdoperceel perceel on belastzak.kdozakelijkrechtrustophref = perceel.kdoperceelid OR zakelijkrecht.kdozakelijkrechtrustophref = perceel.kdoperceelid&#xD;&#xA;LEFT JOIN brk_appartementsrecht app on belastzak.kdozakelijkrechtrustopappartementsrechthref = app.appartementsrechtid OR zakelijkrecht.kdozakelijkrechtrustopappartementsrechthref = app.appartementsrechtid&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_geometry geom ON perceel.kdoperceelid = geom.id OR app.appartementsrechtid = id&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_tennaamstelling tenamsteling on zakelijkrecht.kdozakelijkrechtid = tenamsteling.tennaamstellingvanzakelijkrechthref&#xD;&#xA;LEFT JOIN brk_nietingezetene nietingezetene ON nietingezetene.nietingezeteneid = tenamsteling.tennaamstellingvanpersoonnietingezetenehref&#xD;&#xA;LEFT JOIN anl_persoon eigenaar ON trim(to_char(eigenaar.burgerservicenummer, '999999999')) = nietingezetene.nietingezetenebsn&#xD;&#xA;WHERE nietingezetene.nietingezetenebsn &lt;> '';&#xD;&#xA;--####################################&#xD;&#xA;--##################################&#xD;&#xA;----kadnatprs----&#xD;&#xA;INSERT INTO brk_perceel_zakelijkrecht&#xD;&#xA;SELECT tenamsteling.tennaamstellingid as link_id,&#xD;&#xA;COALESCE(NULLIF(concat_ws(' ', perceel.kdoperceelkadaanduidanaamadgemwaarde, perceel.kdoperceelkadaanduidsectie, perceel.kdoperceelkadaanduidanaamadgemperceelnummer), ''),&#xD;&#xA;&#x9;NULLIF(concat_ws(' ', app.appartementsrechtkadaanduidingnaamkadgemwaarde, app.appartementsrechtkadaanduidingsectie, app.appartementsrechtkadaanduidingperceelnummer, 'A' || app.appartementsrechtkadaanduidingappartsrechtvolgnum), '')) AS perceel,&#xD;&#xA;NULLIF(upper(concat_ws(' ', eigenaar.kadnatprsvoornamen, eigenaar.kadnatprsvoorvoegselsgeslachtsnaam, eigenaar.kadnatprsgeslachtsnaam)), ' ') AS eigenaar,&#xD;&#xA;perceel.kdoperceelkoopsom AS koopsom,&#xD;&#xA;perceel.kdoperceelkoopjaar AS koopjaar,&#xD;&#xA;perceel.kdoperceelkadgroottewaarde AS grootte,&#xD;&#xA;perceel.kdoperceelsoortgroottewaarde AS groottesoort,&#xD;&#xA;perceel.kdoperceelakrregister9tekst AS akrregister9tekst,&#xD;&#xA;geom.geom AS geo,&#xD;&#xA;perceel.kdoperceelkoopsomindicatiemeerobjecten AS koopsomindicatiemeerobjecten,&#xD;&#xA;concat_ws(' ', concat_ws('/', tenamsteling.tennaamstellingaandeelteller, tenamsteling.tennaamstellingaandeelnoemer), coalesce(zakelijkrecht.kdozakelijkrechtaardwaarde,belastzak.kdozakelijkrechtaardwaarde)) AS aandeel&#xD;&#xA;FROM brk_zakelijkrecht zakelijkrecht&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_zakelijkrecht_belastmet belastmet on belastmet.href = zakelijkrecht.kdozakelijkrechtid&#xD;&#xA;LEFT JOIN brk_zakelijkrecht belastzak on belastmet.zakelijkrechtid = belastzak.kdozakelijkrechtid&#xD;&#xA;LEFT JOIN brk_kdoperceel perceel on belastzak.kdozakelijkrechtrustophref = perceel.kdoperceelid OR zakelijkrecht.kdozakelijkrechtrustophref = perceel.kdoperceelid&#xD;&#xA;LEFT JOIN brk_appartementsrecht app on belastzak.kdozakelijkrechtrustopappartementsrechthref = app.appartementsrechtid OR zakelijkrecht.kdozakelijkrechtrustopappartementsrechthref = app.appartementsrechtid&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_geometry geom ON perceel.kdoperceelid = geom.id OR app.appartementsrechtid = id&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_tennaamstelling tenamsteling on zakelijkrecht.kdozakelijkrechtid = tenamsteling.tennaamstellingvanzakelijkrechthref&#xD;&#xA;LEFT JOIN brk_kadnatprs eigenaar ON eigenaar.kadnatprsid = tenamsteling.tennaamstellingvanpersoonkadnatprshref&#xD;&#xA;WHERE eigenaar.kadnatprsgeslachtsnaam &lt;> '';&#xD;&#xA;--####################################&#xD;&#xA;--##################################&#xD;&#xA;--Rechtspersoon--&#xD;&#xA;INSERT INTO brk_perceel_zakelijkrecht&#xD;&#xA;SELECT tenamsteling.tennaamstellingid as link_id,&#xD;&#xA;COALESCE(NULLIF(concat_ws(' ', perceel.kdoperceelkadaanduidanaamadgemwaarde, perceel.kdoperceelkadaanduidsectie, perceel.kdoperceelkadaanduidanaamadgemperceelnummer), ''),&#xD;&#xA;&#x9;NULLIF(concat_ws(' ', app.appartementsrechtkadaanduidingnaamkadgemwaarde, app.appartementsrechtkadaanduidingsectie, app.appartementsrechtkadaanduidingperceelnummer, 'A' || app.appartementsrechtkadaanduidingappartsrechtvolgnum), '')) AS perceel,&#xD;&#xA;upper(eigenaar.rechtpersoonstatutairenaam) AS eigenaar,&#xD;&#xA;perceel.kdoperceelkoopsom AS koopsom,&#xD;&#xA;perceel.kdoperceelkoopjaar AS koopjaar,&#xD;&#xA;perceel.kdoperceelkadgroottewaarde AS grootte,&#xD;&#xA;perceel.kdoperceelsoortgroottewaarde AS groottesoort,&#xD;&#xA;perceel.kdoperceelakrregister9tekst AS akrregister9tekst,&#xD;&#xA;geom.geom AS geo,&#xD;&#xA;perceel.kdoperceelkoopsomindicatiemeerobjecten AS koopsomindicatiemeerobjecten,&#xD;&#xA;concat_ws(' ', concat_ws('/', tenamsteling.tennaamstellingaandeelteller, tenamsteling.tennaamstellingaandeelnoemer), coalesce(zakelijkrecht.kdozakelijkrechtaardwaarde,belastzak.kdozakelijkrechtaardwaarde)) AS aandeel&#xD;&#xA;FROM brk_zakelijkrecht zakelijkrecht&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_zakelijkrecht_belastmet belastmet on belastmet.href = zakelijkrecht.kdozakelijkrechtid&#xD;&#xA;LEFT JOIN brk_zakelijkrecht belastzak on belastmet.zakelijkrechtid = belastzak.kdozakelijkrechtid&#xD;&#xA;LEFT JOIN brk_kdoperceel perceel on belastzak.kdozakelijkrechtrustophref = perceel.kdoperceelid OR zakelijkrecht.kdozakelijkrechtrustophref = perceel.kdoperceelid&#xD;&#xA;LEFT JOIN brk_appartementsrecht app on belastzak.kdozakelijkrechtrustopappartementsrechthref = app.appartementsrechtid OR zakelijkrecht.kdozakelijkrechtrustopappartementsrechthref = app.appartementsrechtid&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_geometry geom ON perceel.kdoperceelid = geom.id OR app.appartementsrechtid = id&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_tennaamstelling tenamsteling on zakelijkrecht.kdozakelijkrechtid = tenamsteling.tennaamstellingvanzakelijkrechthref&#xD;&#xA;LEFT JOIN brk_rechtpersoon eigenaar ON eigenaar.rechtpersoonid = tenamsteling.tennaamstellingvanpersoonrechtsprshref&#xD;&#xA;WHERE eigenaar.rechtpersoonrsin &lt;> '';&#xD;&#xA;--####################################&#xD;&#xA;--##################################&#xD;&#xA;--kadnnp--&#xD;&#xA;INSERT INTO brk_perceel_zakelijkrecht&#xD;&#xA;SELECT tenamsteling.tennaamstellingid as link_id,&#xD;&#xA;COALESCE(NULLIF(concat_ws(' ', perceel.kdoperceelkadaanduidanaamadgemwaarde, perceel.kdoperceelkadaanduidsectie, perceel.kdoperceelkadaanduidanaamadgemperceelnummer), ''),&#xD;&#xA;&#x9;NULLIF(concat_ws(' ', app.appartementsrechtkadaanduidingnaamkadgemwaarde, app.appartementsrechtkadaanduidingsectie, app.appartementsrechtkadaanduidingperceelnummer, 'A' || app.appartementsrechtkadaanduidingappartsrechtvolgnum), '')) AS perceel,&#xD;&#xA;upper(eigenaar.kadnnpnaam) AS eigenaar,&#xD;&#xA;perceel.kdoperceelkoopsom AS koopsom,&#xD;&#xA;perceel.kdoperceelkoopjaar AS koopjaar,&#xD;&#xA;perceel.kdoperceelkadgroottewaarde AS grootte,&#xD;&#xA;perceel.kdoperceelsoortgroottewaarde AS groottesoort,&#xD;&#xA;perceel.kdoperceelakrregister9tekst AS akrregister9tekst,&#xD;&#xA;geom.geom AS geo,&#xD;&#xA;perceel.kdoperceelkoopsomindicatiemeerobjecten AS koopsomindicatiemeerobjecten,&#xD;&#xA;concat_ws(' ', concat_ws('/', tenamsteling.tennaamstellingaandeelteller, tenamsteling.tennaamstellingaandeelnoemer), coalesce(zakelijkrecht.kdozakelijkrechtaardwaarde,belastzak.kdozakelijkrechtaardwaarde)) AS aandeel&#xD;&#xA;FROM brk_zakelijkrecht zakelijkrecht&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_zakelijkrecht_belastmet belastmet on belastmet.href = zakelijkrecht.kdozakelijkrechtid&#xD;&#xA;LEFT JOIN brk_zakelijkrecht belastzak on belastmet.zakelijkrechtid = belastzak.kdozakelijkrechtid&#xD;&#xA;LEFT JOIN brk_kdoperceel perceel on belastzak.kdozakelijkrechtrustophref = perceel.kdoperceelid OR zakelijkrecht.kdozakelijkrechtrustophref = perceel.kdoperceelid&#xD;&#xA;LEFT JOIN brk_appartementsrecht app on belastzak.kdozakelijkrechtrustopappartementsrechthref = app.appartementsrechtid OR zakelijkrecht.kdozakelijkrechtrustopappartementsrechthref = app.appartementsrechtid&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_geometry geom ON perceel.kdoperceelid = geom.id OR app.appartementsrechtid = id&#xD;&#xA;&#xD;&#xA;LEFT JOIN brk_tennaamstelling tenamsteling on zakelijkrecht.kdozakelijkrechtid = tenamsteling.tennaamstellingvanzakelijkrechthref&#xD;&#xA;LEFT JOIN brk_kadnnp eigenaar ON eigenaar.kadnnpid = tenamsteling.tennaamstellingvanpersoonkadnnphref&#xD;&#xA;WHERE eigenaar.kadnnpnaam &lt;> '';&#xD;&#xA;&#xD;&#xA;ALTER TABLE brk_perceel_zakelijkrecht&#xD;&#xA;  OWNER TO &quot; + Settings.get(&quot;CONNECTION_DEFINITION&quot;, &quot;user&quot;) + &quot;;&#xD;&#xA;GRANT ALL ON TABLE brk_perceel_zakelijkrecht TO &quot; + Settings.get(&quot;CONNECTION_DEFINITION&quot;, &quot;user&quot;) + &quot;;&#xD;&#xA;&#xD;&#xA;COMMENT ON TABLE brk_perceel_zakelijkrecht IS 'Perceel zakelijkrecht';&#xD;&#xA;COMMENT ON COLUMN brk_perceel_zakelijkrecht.perceel IS 'Perceel-id';&#xD;&#xA;COMMENT ON COLUMN brk_perceel_zakelijkrecht.koopsom IS 'Koopsom';&#xD;&#xA;COMMENT ON COLUMN brk_perceel_zakelijkrecht.koopjaar IS 'Koopjaar';&#xD;&#xA;COMMENT ON COLUMN brk_perceel_zakelijkrecht.grootte IS 'Oppervlakte (m²)';&#xD;&#xA;COMMENT ON COLUMN brk_perceel_zakelijkrecht.groottesoort IS 'Status';&#xD;&#xA;COMMENT ON COLUMN brk_perceel_zakelijkrecht.akrregister9tekst IS 'Register 9 tekst';&#xD;&#xA;COMMENT ON COLUMN brk_perceel_zakelijkrecht.koopsomindicatiemeerobjecten IS 'Koopsoom indicatie meer objecten';&#xD;&#xA;COMMENT ON COLUMN brk_perceel_zakelijkrecht.aandeel IS 'Aandeel / Zakelijkrecht';&#xD;&#xA;COMMENT ON COLUMN brk_perceel_zakelijkrecht.eigenaar IS 'Eigenaar';&#xD;&#xA;COMMENT ON COLUMN brk_perceel_zakelijkrecht.geo IS 'Geometry';&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="comments"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPostgresPlusRow_1"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tWarn" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="64" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="D:\Tools\Talend\dir\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Begonnen met rapport zakelijkrecht (14/18)&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="42"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="3"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tWarn_1"/>
+  </node>
+  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="D:\Tools\Talend\dir\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogCatcher_1">
+      <column key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column key="false" length="255" name="type" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="D:\Tools\Talend\dir\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_csI6UJm1EeWsDKEjDZlt1Q-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="row3">
+      <column key="false" length="0" name="moment" nullable="true" pattern="&quot;HH:mm:ss dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="row3">
+        <mapperTableEntries name="moment" expression="row2.moment" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="message" expression="row2.message" type="id_String" nullable="true"/>
+      </outputTables>
+      <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
+        <mapperTableEntries name="moment" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="pid" type="id_String" nullable="true"/>
+        <mapperTableEntries name="root_pid" type="id_String" nullable="true"/>
+        <mapperTableEntries name="father_pid" type="id_String" nullable="true"/>
+        <mapperTableEntries name="project" type="id_String" nullable="true"/>
+        <mapperTableEntries name="job" type="id_String" nullable="true"/>
+        <mapperTableEntries name="context" type="id_String" nullable="true"/>
+        <mapperTableEntries name="priority" type="id_Integer" nullable="true"/>
+        <mapperTableEntries name="type" type="id_String" nullable="true"/>
+        <mapperTableEntries name="origin" type="id_String" nullable="true"/>
+        <mapperTableEntries name="message" type="id_String" nullable="true"/>
+        <mapperTableEntries name="code" type="id_Integer" nullable="true"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="D:\Tools\Talend\dir\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot; - &quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS">
+      <elementValue elementRef="SCHEMA_COLUMN" value="moment"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="message"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="false"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column key="false" length="0" name="moment" nullable="true" pattern="&quot;HH:mm:ss dd-MM-yyyy&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="D:\Tools\Talend\dir\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.result = true;&#xA;context.jobName = &quot;brk_perceel_zakelijkrecht_job&quot;;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="D:\Tools\Talend\dir\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.result = false;&#xA;context.jobName = &quot;brk_perceel_zakelijkrecht_job&quot;;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="D:\Tools\Talend\dir\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="JobLogger"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_MVlGACGFEeaakbwExWLYRA"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tPostgresPlusConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresPlusConnection_1"/>
+    <elementParameter field="DIRECTORY" name="JAVA_LIBRARY_PATH" value="D:\Tools\Talend\dir\TOS_DI-Win32-20150508_1414-V5.6.2\configuration\lib\java"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="V9_X"/>
+    <elementParameter field="TEXT" name="HOST" value="Settings.get(&quot;CONNECTION_DEFINITION&quot;, &quot;host&quot;)"/>
+    <elementParameter field="TEXT" name="TYPE" value="PostgreSQL"/>
+    <elementParameter field="TEXT" name="PORT" value="Settings.get(&quot;CONNECTION_DEFINITION&quot;, &quot;port&quot;)"/>
+    <elementParameter field="TEXT" name="DBNAME" value="Settings.get(&quot;CONNECTION_DEFINITION&quot;, &quot;database&quot;)"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="Settings.get(&quot;SCHEMA_NAME_LOOKUP&quot;, &quot;ldf&quot;)"/>
+    <elementParameter field="TEXT" name="USER" value="Settings.get(&quot;CONNECTION_DEFINITION&quot;, &quot;user&quot;)"/>
+    <elementParameter field="PASSWORD" name="PASS" value="P0ErQN4UbbOE6U4b0MLo9sw7zV8F4hJvBVoRA4P2FoU4cRj6ykbRmu3u98O+5ueGW7HqcdyS+zU="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="&quot;postgres&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="Connect"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tPostgresPlusRow_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresPlusRow_1" target="tJava_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3"/>
+  </connection>
+  <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tPostgresPlusRow_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresPlusRow_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="tMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="moment"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="root_pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="father_pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="project"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="job"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="context"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="priority"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="type"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="origin"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="message"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="row3" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tLogRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER">
+      <elementValue elementRef="TRACE_COLUMN" value="moment"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="root_pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="father_pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="project"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="job"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="context"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="priority"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="type"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="origin"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="message"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tRunJob_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tRunJob_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tPostgresPlusConnection_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresPlusConnection_1" target="tPostgresPlusRow_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresPlusRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tWarn_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogCatcher_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresPlusConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="160;190;240"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="220;220;250"/>
+  </subjob>
+</talendfile:ProcessType>

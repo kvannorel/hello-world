@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_1MLgAM7AEeK7P7h2ktUGsA" id="_YRLwoKkXEeOAkYH_v5pRMQ" label="ContextReader" purpose="Reusable Job for Reading a Context File" description="Any code written or configuration within this Job by www.talendbyexample.com has been built as part of an online tutorial and is not intended for use in a production environment&#xA;&#xA;0.2 Supports comments in Context file. Any line starting with '#'&#xA;0.3 Trims input values" version="2.0" statusCode="" item="_1MLgAs7AEeK7P7h2ktUGsA" displayName="ContextReader">
+    <author href="../../../talend.project#_UJ_sIYOiEeqN_v9PL6vBgQ"/>
+    <additionalProperties xmi:id="_zggB8J2VEemjy-bQueqiFw" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_zggB8Z2VEemjy-bQueqiFw" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_zggB8p2VEemjy-bQueqiFw" key="created_date" value="2019-07-03T15:23:54.383+0200"/>
+    <additionalProperties xmi:id="_zggB852VEemjy-bQueqiFw" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_zggB9J2VEemjy-bQueqiFw" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_zggB9Z2VEemjy-bQueqiFw" key="modified_date" value="2020-04-21T09:50:46.541+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_sLsxoIOiEeqN_v9PL6vBgQ" path="CommonJobs/ContextLoader" locked="true" lockDate="2020-04-21T09:50:46.541+0200">
+    <locker href="../../../talend.project#_UJ_sIYOiEeqN_v9PL6vBgQ"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_1MLgAs7AEeK7P7h2ktUGsA" property="_1MLgAM7AEeK7P7h2ktUGsA" state="_sLsxoIOiEeqN_v9PL6vBgQ">
+    <process href="ContextReader_2.0.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_TWpcoLTFEeOzwumssWawaA" id="_TWdPYLTFEeOzwumssWawaA" label="Logger" version="2.0" statusCode="" item="_TWpcorTFEeOzwumssWawaA" displayName="Logger">
+    <author href="../../../talend.project#_UJ_sIYOiEeqN_v9PL6vBgQ"/>
+    <additionalProperties xmi:id="_hi0ucIOiEeqN_v9PL6vBgQ" key="created_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_hi1VgIOiEeqN_v9PL6vBgQ" key="created_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_hi1VgYOiEeqN_v9PL6vBgQ" key="created_date" value="2020-04-21T09:34:24.727+0200"/>
+    <additionalProperties xmi:id="_hi1VgoOiEeqN_v9PL6vBgQ" key="modified_product_fullname" value="Talend Open Studio for Data Integration"/>
+    <additionalProperties xmi:id="_hi1Vg4OiEeqN_v9PL6vBgQ" key="modified_product_version" value="7.2.1.20190620_1446"/>
+    <additionalProperties xmi:id="_hi1VhIOiEeqN_v9PL6vBgQ" key="modified_date" value="2020-04-21T09:34:24.727+0200"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_hiRU0IOiEeqN_v9PL6vBgQ" path="CommonJobs/Logger"/>
+  <TalendProperties:ProcessItem xmi:id="_TWpcorTFEeOzwumssWawaA" property="_TWpcoLTFEeOzwumssWawaA" state="_hiRU0IOiEeqN_v9PL6vBgQ">
+    <process href="Logger_2.0.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>
