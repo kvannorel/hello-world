@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_eYLS0I-UEequHepCzpIbFA" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_eYLS0Y-UEequHepCzpIbFA" comment="" name="inzicht_pw" prompt="inzicht_pw?" promptNeeded="false" type="id_Password" value="0MXMJZ3MMjsnwj9lB+snfKtC+sCNzPjMqhbCBp5ILne5brQYQnI4Ug=="/>
-</talendfile:ContextType>

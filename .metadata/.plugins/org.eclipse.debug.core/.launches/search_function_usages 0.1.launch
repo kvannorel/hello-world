@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<launchConfiguration type="org.talend.designer.runprocess.jobLaunchConfiguration">
-<stringAttribute key="CURRENT_PROJECT_NAME" value="cir_dependencies"/>
-<stringAttribute key="JOB_PROJECT_TECH_LABEL" value="CIR_DEPENDENCIES"/>
-<stringAttribute key="TALEND_JOB_ID" value="_9jnRID9xEeq3IP9IQ4plPg"/>
-<stringAttribute key="TALEND_JOB_NAME" value="search_function_usages"/>
-<stringAttribute key="TALEND_JOB_VERSION" value="0.1"/>
-</launchConfiguration>

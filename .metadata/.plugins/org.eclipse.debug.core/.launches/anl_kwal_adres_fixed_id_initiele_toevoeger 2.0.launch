@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<launchConfiguration type="org.talend.designer.runprocess.jobLaunchConfiguration">
-<stringAttribute key="CURRENT_PROJECT_NAME" value="ldf"/>
-<stringAttribute key="JOB_PROJECT_TECH_LABEL" value="LDF"/>
-<stringAttribute key="TALEND_JOB_ID" value="_6m2i4A9CEeWRIKRgfaJ1wQ"/>
-<stringAttribute key="TALEND_JOB_NAME" value="anl_kwal_adres_fixed_id_initiele_toevoeger"/>
-<stringAttribute key="TALEND_JOB_VERSION" value="2.0"/>
-</launchConfiguration>
